@@ -387,7 +387,7 @@ export default function CryptoPage() {
                   fontSize: '0.75rem', color: 'var(--accent-orange)',
                   letterSpacing: '2px',
                 }}>
-                  PENDIENTE — PRÁCTICA ECDSA
+                  PRÁCTICA ECDSA
                 </span>
               </div>
               <span className="ip-tag">ECDSA / P-256</span>
@@ -430,7 +430,7 @@ export default function CryptoPage() {
                 wordBreak: 'break-all',
                 margin: 0,
               }}>
-            {`LLave`}
+            {`f979b47deb6db1691229af50ff3b55591a8b9d85d55c62fb3e0f0502e9410733`}
               </pre>
             </div>
 
