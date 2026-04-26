@@ -34,7 +34,7 @@ export default function CryptoPage() {
   const [copied, setCopied] = useState(false)
 
   const handleCopy = () => {
-    navigator.clipboard.writeText('f979b47deb6db1691229af50ff3b55591a8b9d85d55c62fb3e0f0502e9410733')
+    navigator.clipboard.writeText('MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEhTYUjZJhoMWzbH7CTuHFJoQI9KNCtV5oniMtdVQMEDFJ67zmZwrsi9UgTKiFB02BYqwsovZLuS4HXySuegjSfg==')
     setCopied(true)
     setTimeout(() => setCopied(false), 2000)
   }
@@ -430,7 +430,7 @@ export default function CryptoPage() {
                 wordBreak: 'break-all',
                 margin: 0,
               }}>
-            {`f979b47deb6db1691229af50ff3b55591a8b9d85d55c62fb3e0f0502e9410733`}
+            {`MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEhTYUjZJhoMWzbH7CTuHFJoQI9KNCtV5oniMtdVQMEDFJ67zmZwrsi9UgTKiFB02BYqwsovZLuS4HXySuegjSfg==`}
               </pre>
             </div>
 
