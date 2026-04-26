@@ -441,9 +441,9 @@ export default function CryptoPage() {
                 gap: '1rem',
               }}>
               {[
-                { label: 'ALGORITMO', value: '-' },
-                { label: 'CURVA', value: '-' },
-                { label: 'ESTADO', value: 'PENDIENTE' },
+                { label: 'ALGORITMO', value: 'ECDSA' },
+                { label: 'CURVA', value: 'P-256' },
+                { label: 'ESTADO', value: 'COMPLETO' },
               ].map((item) => (
                 <div key={item.label} style={{
                   textAlign: 'center', padding: '0.75rem',
