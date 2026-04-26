@@ -34,7 +34,7 @@ export default function CryptoPage() {
   const [copied, setCopied] = useState(false)
 
   const handleCopy = () => {
-    navigator.clipboard.writeText('// Tu llave pública irá aquí')
+    navigator.clipboard.writeText('f979b47deb6db1691229af50ff3b55591a8b9d85d55c62fb3e0f0502e9410733')
     setCopied(true)
     setTimeout(() => setCopied(false), 2000)
   }
