@@ -34,7 +34,7 @@ export default function CryptoPage() {
   const [copied, setCopied] = useState(false)
 
   const handleCopy = () => {
-    navigator.clipboard.writeText('MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEhTYUjZJhoMWzbH7CTuHFJoQI9KNCtV5oniMtdVQMEDFJ67zmZwrsi9UgTKiFB02BYqwsovZLuS4HXySuegjSfg==')
+    navigator.clipboard.writeText('-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEhTYUjZJhoMWzbH7CTuHFJoQI9KNC\ntV5oniMtdVQMEDFJ67zmZwrsi9UgTKiFB02BYqwsovZLuS4HXySuegjSfg==\n-----END PUBLIC KEY-----')
     setCopied(true)
     setTimeout(() => setCopied(false), 2000)
   }
@@ -430,7 +430,10 @@ export default function CryptoPage() {
                 wordBreak: 'break-all',
                 margin: 0,
               }}>
-            {`MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEhTYUjZJhoMWzbH7CTuHFJoQI9KNCtV5oniMtdVQMEDFJ67zmZwrsi9UgTKiFB02BYqwsovZLuS4HXySuegjSfg==`}
+            {`-----BEGIN PUBLIC KEY-----
+MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEhTYUjZJhoMWzbH7CTuHFJoQI9KNC
+tV5oniMtdVQMEDFJ67zmZwrsi9UgTKiFB02BYqwsovZLuS4HXySuegjSfg==
+-----END PUBLIC KEY-----`}
               </pre>
             </div>
 
